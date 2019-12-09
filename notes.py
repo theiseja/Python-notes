@@ -32,3 +32,7 @@ for item in new_tuple:  # Python for loop example
 # Function example
 def my_function(): # functions are defined using the def keyword
     print("Hello, I'm a function!")
+    
+# print the data type of variable
+x = 10
+print(type(x))
