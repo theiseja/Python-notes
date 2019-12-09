@@ -27,3 +27,8 @@ print( len(new_tuple))
 for item in new_tuple:  # Python for loop example
     # access an item
     print(item)
+    
+    
+# Function example
+def my_function(): # functions are defined using the def keyword
+    print("Hello, I'm a function!")
