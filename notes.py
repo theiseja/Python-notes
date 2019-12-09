@@ -1,4 +1,5 @@
 # Lists
+# uses []
 # group of items we ref by index
 # are mutable (mutable can be changed, immutable cannot be changed)
 # can have duplicate items
@@ -17,6 +18,7 @@ del new_list[1] # removes item at i
 
 
 # Tuples
+# uses ()
 # creates tuple
 new_tuple = ('item', 'item', 'item')
 
