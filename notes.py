@@ -16,9 +16,7 @@ new_list.pop() # removes the last item in the list
 del new_list[1] # removes item at i
 
 
-
 # Tuples
-
 # creates tuple
 new_tuple = ('item', 'item', 'item')
 
