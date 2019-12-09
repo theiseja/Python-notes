@@ -24,6 +24,6 @@ new_tuple = ('item', 'item', 'item')
 print( len(new_tuple))
 
 # traverses through tuple
-for item in new_tuple:
+for item in new_tuple:  # Python for loop example
     # access an item
     print(item)
