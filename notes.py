@@ -3,6 +3,7 @@
 # group of items we ref by index
 # are mutable (mutable can be changed, immutable cannot be changed)
 # can have duplicate items
+# sets can not have duplicates
 
 # creates a new list
 new_list = ["red", "orange", "yellow"]
@@ -38,3 +39,30 @@ def my_function(): # functions are defined using the def keyword
 # print the data type of variable
 x = 10
 print(type(x))
+
+
+
+#cspt5 day 1 problem
+# Can you use pieces of both of the above examples to...
+# Create a new list containing only the names that start with `s` so that they 
+# are properly capitalized (regardless of how the name originally appears) 
+names = ["Sarah", "jorge", "sam", "frank", "bob", "sandy", "shawn"]
+print(names)
+# TODO
+s_names = [n.capitalize() for n in names if n[0].lower() == '']
+print(s_names)
+
+# Python math operators list
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Modulo (remainder)
+**	Exponentiation (power)
+=	Assignment
++=	Addition assignment
+-=	Subtraction assignment
+*=	Multiplication assignment
+/=	Division assignment
+%=	Modulo assignment
+
