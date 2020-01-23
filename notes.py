@@ -66,3 +66,34 @@ print(s_names)
 /=	Division assignment
 %=	Modulo assignment
 
+# UPER - Given a number of people, number of pizzas and slices per pizza, write a function to evenly divide the slices between each person.
+# 1. Understand the problem
+# - how do we know #s? (passed as args in function)
+#
+#
+#
+#
+#
+#
+#
+#
+
+    #
+    
+    
+# UPER - Prompt a user to enter three, uique numbers as input, print out 
+# which number is the largest of the three. 
+# 1. Understand
+# - What kind of numbers?
+# 2. Plan
+# 3. Execute
+def calc_largest():
+    # TODO
+    pass
+# 4. Reflect
+
+# basic class structure for future ref
+class Name:
+    def __init__(self, name, age):
+        self.name = name,
+        self.age = age
