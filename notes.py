@@ -97,3 +97,10 @@ class Name:
     def __init__(self, name, age):
         self.name = name,
         self.age = age
+        
+        
+# for loop
+sharks = ['hammerhead', 'great white', 'dogfish', 'frilled', 'bullhead', 'requiem']
+
+for shark in sharks:
+    print(shark)
